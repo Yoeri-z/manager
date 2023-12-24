@@ -1,6 +1,6 @@
-name: manager_flutter
+name: state_manager_flutter
 description: "The simplest state manager around"
-github: ""
+github: "https://github.com/Yoeri-z/manager"
 
 
 version: 1.0.0
@@ -13,8 +13,8 @@ dependencies:
   flutter:
     sdk: flutter
 
-  manager:
-    path: ../manager
+  state_manager:
+    path: ../state_manager
 
 
   cupertino_icons: ^1.0.2

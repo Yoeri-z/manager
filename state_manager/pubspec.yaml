@@ -1,7 +1,7 @@
-name: manager
-description: A sample command-line application.
+name: state_manager
+description:  The simplest state manager around for dart and flutter
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: "https://github.com/Yoeri-z/manager"
 
 environment:
   sdk: ^3.2.0
