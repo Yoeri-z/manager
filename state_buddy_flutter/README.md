@@ -61,3 +61,5 @@ class CounterPage extends StatelessWidget {
 ```
 
 that is it
+
+for more in detail documentation see the github
