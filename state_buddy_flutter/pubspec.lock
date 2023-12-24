@@ -140,10 +140,10 @@ packages:
     dependency: "direct main"
     description:
       name: state_buddy
-      sha256: "0d3631b90a54a93c83931766e04d33b8392b949bef779a1b477f397fc93795d1"
+      sha256: "267fd8b49bd90ddb6bc55815ae22b327cbf22856bb09147d0d52c11ffa733605"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0"
+    version: "1.0.1"
   stream_channel:
     dependency: transitive
     description:

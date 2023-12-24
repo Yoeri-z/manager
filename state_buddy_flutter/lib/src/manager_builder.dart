@@ -19,7 +19,7 @@ class ManagerBuilder<M extends Manager<St>, St> extends StatefulWidget {
 class _ManagerBuilderState<M extends Manager<St>, St>
     extends State<ManagerBuilder<M, St>> {
   //manager will be looked up in the init state
-  final M manager = ManagerTable.lookUpManager<M>();
+  final M manager = ManagerTable.find<M>();
 
   //the listener function will be stored here
   late void Function(St state) listener;
