@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:maestro/maestro.dart';
-import 'package:maestro_flutter/maestro_flutter.dart';
+import 'package:state_buddy/state_buddy.dart';
+import 'package:state_buddy_flutter/state_buddy_flutter.dart';
 
 class CounterManager extends Manager<int> {
   CounterManager() : super(0);

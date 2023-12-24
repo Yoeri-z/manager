@@ -83,20 +83,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.1"
-  maestro:
-    dependency: "direct main"
-    description:
-      path: "../maestro"
-      relative: true
-    source: path
-    version: "1.0.0"
-  maestro_flutter:
-    dependency: "direct main"
-    description:
-      path: "../maestro_flutter"
-      relative: true
-    source: path
-    version: "1.0.0"
   matcher:
     dependency: transitive
     description:
@@ -150,6 +136,20 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.11.1"
+  state_buddy:
+    dependency: "direct main"
+    description:
+      path: "../state_buddy"
+      relative: true
+    source: path
+    version: "1.0.0"
+  state_buddy_flutter:
+    dependency: "direct main"
+    description:
+      path: "../state_buddy_flutter"
+      relative: true
+    source: path
+    version: "1.0.0"
   stream_channel:
     dependency: transitive
     description:

@@ -1,4 +1,4 @@
-name: maestro_flutter
+name: state_buddy_flutter
 description: "The simplest state manager around"
 github: "https://github.com/Yoeri-z/manager"
 
@@ -13,8 +13,8 @@ dependencies:
   flutter:
     sdk: flutter
 
-  maestro:
-    path: ../maestro
+  state_buddy:
+    path: ../state_buddy
 
 
   cupertino_icons: ^1.0.2

@@ -30,10 +30,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  maestro:
-    path: ../maestro
-  maestro_flutter:
-    path: ../maestro_flutter
+  state_buddy:
+    path: ../state_buddy
+    
+  state_buddy_flutter:
+    path: ../state_buddy_flutter
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
