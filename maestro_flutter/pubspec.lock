@@ -83,6 +83,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.1"
+  maestro:
+    dependency: "direct main"
+    description:
+      path: "../maestro"
+      relative: true
+    source: path
+    version: "1.0.0"
   matcher:
     dependency: transitive
     description:
@@ -136,13 +143,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.11.1"
-  state_manager:
-    dependency: "direct main"
-    description:
-      path: "../state_manager"
-      relative: true
-    source: path
-    version: "1.0.0"
   stream_channel:
     dependency: transitive
     description:

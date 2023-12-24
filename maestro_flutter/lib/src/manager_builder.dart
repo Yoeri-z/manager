@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:state_manager/state_manager.dart';
+import 'package:maestro/maestro.dart';
 
 ///A widget that rebuilds when the state of a manager changes,
 ///```
