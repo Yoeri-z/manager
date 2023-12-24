@@ -13,7 +13,7 @@ class CounterManager extends Manager<int> {
 void main() {
   test('adds one to input values', () {
     int listenerval = 0;
-    final manager = ManagerTable.lookUpManager<CounterManager>();
+    final manager = ManagerTable.find<CounterManager>();
     manager.addListener((state) => listenerval = state);
 
     manager.increment();

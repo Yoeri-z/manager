@@ -1,6 +1,6 @@
 name: state_buddy
 description:  The simplest state manager around for dart and flutter
-version: 1.0.0
+version: 1.0.1
 repository: "https://github.com/Yoeri-z/manager"
 
 environment:

@@ -140,18 +140,18 @@ packages:
     dependency: "direct main"
     description:
       name: state_buddy
-      sha256: "0d3631b90a54a93c83931766e04d33b8392b949bef779a1b477f397fc93795d1"
+      sha256: "267fd8b49bd90ddb6bc55815ae22b327cbf22856bb09147d0d52c11ffa733605"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0"
+    version: "1.0.1"
   state_buddy_flutter:
     dependency: "direct main"
     description:
       name: state_buddy_flutter
-      sha256: e9529bfaf1dd5fc56692fd5bee695b07d488ae7490cea3fb3960d8573cb10008
+      sha256: b6caa6c5ff10334e9f91df70a3cf9c0759b5a690fd8f2f80067ada59a7ec516e
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0"
+    version: "1.0.1"
   stream_channel:
     dependency: transitive
     description:

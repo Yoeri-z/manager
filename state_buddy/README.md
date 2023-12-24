@@ -13,7 +13,7 @@ void main(){
     //Add the manager to the ManagerTable to make it accesible throughout the entire application
     ManagerTable.addManager(CounterManager());
     //you can find the manager in the table like this
-    final manager = ManagerTable.lookUpManager<CounterManager>();
+    final manager = ManagerTable.find<CounterManager>();
     //print the state every time it changes
     manager.addListener((state) => print(state));
     //this will print 1

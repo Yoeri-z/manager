@@ -40,8 +40,7 @@ class CounterPage extends StatelessWidget {
             builder: (context, state) => Text(state.toString())),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () =>
-            ManagerTable.lookUpManager<CounterManager>().increment(),
+        onPressed: () => ManagerTable.find<CounterManager>().increment(),
         child: const Icon(Icons.add),
       ),
     );

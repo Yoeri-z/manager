@@ -33,7 +33,7 @@ class ManagerTable {
   static final _instance = ManagerTable._();
 
   /// Look up a manager for the given state type
-  static T lookUpManager<T extends Manager>() {
+  static T find<T extends Manager>() {
     final manager = _instance.managers[T];
     assert(manager != null, 'No manager found for $T');
     return manager as T;
