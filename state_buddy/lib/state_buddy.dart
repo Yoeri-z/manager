@@ -44,8 +44,6 @@ class ManagerTable {
     assert(_instance.managers[T] == null, 'Two managers found for $T');
 
     _instance.managers[T] = manager;
-
-    print(_instance.managers);
   }
 
   /// Add multiple managers to the table, only one manager can be added for each state type

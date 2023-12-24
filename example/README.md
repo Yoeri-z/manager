@@ -1,4 +1,4 @@
 # example
 
-This is an example of the manager. It manages the state of a simple counter app
+This is an example of the state buddy. It manages the state of a simple counter app
 
