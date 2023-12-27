@@ -54,4 +54,18 @@ class ManagerTable {
   void addManagers(Iterable<Manager> managers) {
     managers.forEach(addManager);
   }
+
+  @override
+  bool operator ==(Object other) {
+    return hashCode == other.hashCode && other is ManagerTable;
+  }
+
+  @override
+  int get hashCode {
+    int total = 0;
+    for (var manager in managers.values) {
+      total += manager.hashCode;
+    }
+    return total;
+  }
 }

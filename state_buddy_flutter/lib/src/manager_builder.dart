@@ -44,7 +44,9 @@ class ManagerBuilder<M extends Manager<St>, St> extends StatefulWidget {
 
 class _ManagerBuilderState<M extends Manager<St>, St>
     extends State<ManagerBuilder<M, St>> {
+  // The manager instance that is used by this widget
   M? manager;
+  // The listener that is used to rebuild the widget
   void Function(St state)? listener;
 
   @override

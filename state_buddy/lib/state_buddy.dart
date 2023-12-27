@@ -54,4 +54,16 @@ class ManagerTable {
   void addManagers(Iterable<Manager> managers) {
     managers.forEach(addManager);
   }
+
+  @override
+  bool operator ==(Object other) {
+    return hashCode == other.hashCode && other is ManagerTable;
+  }
+
+  @override
+  int get hashCode {
+    //the managers is defined by its length, in an application there should be only one managertable, one manager table can only change in length
+    //because managers can not be removed
+    return managers.length;
+  }
 }
