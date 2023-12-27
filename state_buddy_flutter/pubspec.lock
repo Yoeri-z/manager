@@ -136,14 +136,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.11.1"
-  state_buddy:
-    dependency: "direct main"
-    description:
-      name: state_buddy
-      sha256: "267fd8b49bd90ddb6bc55815ae22b327cbf22856bb09147d0d52c11ffa733605"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.1"
   stream_channel:
     dependency: transitive
     description:

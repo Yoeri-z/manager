@@ -1,8 +1,3 @@
-# manager_flutter
-
-Using this package is very simple, below is an implementation of the counter app
-
-```dart
 import 'package:flutter/material.dart';
 import 'package:state_buddy_flutter/state_buddy_flutter.dart';
 
@@ -60,8 +55,3 @@ class CounterPage extends StatelessWidget {
     );
   }
 }
-```
-
-that is it
-
-for more in detail documentation see the github
