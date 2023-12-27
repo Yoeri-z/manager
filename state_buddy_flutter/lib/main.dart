@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:state_buddy_flutter/state_buddy_flutter.dart';
 
-//create a manager for the counter, that state is of value int in this case
+//create a manager for the counter, the state is an int in this case
 class CounterManager extends Manager<int> {
   CounterManager() : super(0);
 
@@ -54,4 +54,11 @@ class CounterPage extends StatelessWidget {
       ),
     );
   }
+}
+
+void test() {
+  final middleware = Middleware<int>((state) {
+    print(state);
+    return state;
+  });
 }
